@@ -1,0 +1,15 @@
+name: gpflow
+dependencies:
+  - python = 3.10
+  - pip
+  - pip:
+    - ipython
+    - jupyter
+    - numpy >= 1.21.0
+    - pandas
+    - matplotlib
+    - scikit-learn
+    - scipy >= 1.10
+    - gpflow 
+    - seaborn
+    - tensorflow-probability
